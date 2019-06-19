@@ -1,0 +1,101 @@
+.navbar {
+    background-color: #E9F5FF;
+}
+
+nav.navbar {
+    box-shadow: none;
+}
+
+.brand {
+    font-family: 'Fredoka One', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: #6597CF!important;
+    letter-spacing: 4px;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.brand-desc {
+    font-family: 'Rubik', sans-serif;
+    color: #646464;
+    font-weight: bold;
+    font-size: .75em;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+form {
+    margin: 0 auto;
+}
+
+form input {
+    width: 700px;
+    height: 40px;
+    margin-right: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+form input:focus {
+    box-shadow: 
+    0 3px 1px -2px rgba(0,0,0,.2), 
+    0 2px 2px 0 rgba(0,0,0,.14), 
+    0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+form button {
+    padding: 5px 30px;
+    background-color: #6597cf;
+    margin-left: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+form button img {
+    width: 30px;
+}
+
+.profile {
+    padding: 5px;
+}
+
+.profile span {
+    font-family: 'Rubik', sans-serif;
+    color: #646464;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.profile img {
+    width: 30px;
+}
+
+.cart {
+    padding: 5px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.cart img {
+    margin: 5px;
+    width: 30px;
+}
+
+.counter {
+    position: absolute;
+    top:18px;
+    right: 15px;
+    background-color: red;
+    border: 1px solid red;
+    color: #E9F5FF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    line-height: 1.8;
+    text-align: center;
+    border-radius: 50%;
+}
